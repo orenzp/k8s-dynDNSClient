@@ -27,8 +27,8 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/orenzp/k8s-dynDNSClient:latest
-            ghcr.io/orenzp/k8s-dynDNSClient:1.0.0
+            ghcr.io/orenzp/k8s-dyndnsclient:latest
+            ghcr.io/orenzp/k8s-dyndnsclient:1.0.0
       
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
