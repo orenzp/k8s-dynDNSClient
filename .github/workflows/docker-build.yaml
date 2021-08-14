@@ -2,9 +2,8 @@ name: docker-build
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - 'main'
+  release: 
+  - types: [published]      
 
 jobs:
   docker:
