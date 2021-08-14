@@ -3,7 +3,7 @@ name: docker-build
 on:
   workflow_dispatch:
   release: 
-  - types: [published]      
+    types: [published]
 
 jobs:
   docker:
